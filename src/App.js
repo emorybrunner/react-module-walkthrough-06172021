@@ -7,7 +7,8 @@ import Header from './components/site/Header';
 import Sidebar from './components/site/Sidebar';
 import {
   BrowserRouter as Router
-} from 'react-router-dom';
+} from 'react-router-dom'; //people usually do this because it saves time to just type router later
+//react-router-dom: React module 1.4
 
 function App() {
   return (

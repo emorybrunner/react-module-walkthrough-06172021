@@ -18,7 +18,7 @@ const Sidebar = () => {
             </div>
             <div className='sidebar-route'>
                 <Switch> {/*like a vanilla switch statement, only one condition is true at a time, so only one thing shows at a time */}
-                    <Route exact path='/home'><Home /></Route>
+                    <Route exact path='/home'><Home /></Route> {/* possible error: extra spaces in route?   ONLY ONE child component per route--could wrap multiple components in a div, however */}
                     <Route exact path='/resources'><Resources /></Route>
                     <Route exact path='/'><Home /></Route>
                 </Switch>
