@@ -1,5 +1,5 @@
 //*CONSTRUCTORS
-class UserTwo {
+class User {
     constructor(first, last, e) { //values that are passed in as arguments when the object is created
         this.f = first;
         this.l = last;
@@ -8,7 +8,7 @@ class UserTwo {
     };
 };
 
-let userOne = new UserTwo('Paul', `O'Connor`, 'poconnor@elevenfifty.org');
+let userOne = new User('Paul', `O'Connor`, 'poconnor@elevenfifty.org');
 console.log(userOne.first); //undefined -- because this property doesnt exist!
 console.log(userOne.f); //Paul
 console.log(userOne.l); //O'Connor
